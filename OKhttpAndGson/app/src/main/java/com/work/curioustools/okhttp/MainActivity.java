@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void downloadAndDisplayJson() {
+        //DON'T FORGET TO ADD INTERNET PERMISSION!!!
         String url=etUrl.getText().toString();
         new async().execute(url);
 
